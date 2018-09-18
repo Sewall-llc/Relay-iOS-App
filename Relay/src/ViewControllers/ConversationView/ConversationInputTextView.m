@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
         self.delegate = self;
 
         self.backgroundColor = [UIColor ows_light02Color];
-        self.layer.borderColor = [UIColor.ows_blackColor colorWithAlphaComponent:0.12f].CGColor;
+        self.layer.borderColor = [UIColor.blackColor colorWithAlphaComponent:0.12f].CGColor;
         self.layer.borderWidth = 0.5f;
 
         self.scrollIndicatorInsets = UIEdgeInsetsMake(4, 4, 4, 4);

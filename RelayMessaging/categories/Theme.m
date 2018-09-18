@@ -46,13 +46,13 @@ NSString *const ThemeKeyThemeEnabled = @"ThemeKeyThemeEnabled";
 
 + (UIColor *)backgroundColor
 {
-    return (Theme.isDarkThemeEnabled ? UIColor.ows_blackColor : UIColor.ows_whiteColor);
+    return (Theme.isDarkThemeEnabled ? UIColor.blackColor : UIColor.ows_whiteColor);
 }
 
 + (UIColor *)primaryColor
 {
     // TODO: Theme, Review with design.
-    return (Theme.isDarkThemeEnabled ? UIColor.ows_whiteColor : UIColor.ows_light90Color);
+    return (Theme.isDarkThemeEnabled ? UIColor.whiteColor : UIColor.ows_light90Color);
 }
 
 + (UIColor *)secondaryColor
@@ -64,14 +64,14 @@ NSString *const ThemeKeyThemeEnabled = @"ThemeKeyThemeEnabled";
 + (UIColor *)boldColor
 {
     // TODO: Review with design.
-    return (Theme.isDarkThemeEnabled ? UIColor.ows_whiteColor : UIColor.blackColor);
+    return (Theme.isDarkThemeEnabled ? UIColor.whiteColor : UIColor.blackColor);
 }
 
 #pragma mark - Global App Colors
 
 + (UIColor *)navbarBackgroundColor
 {
-    return (Theme.isDarkThemeEnabled ? UIColor.ows_blackColor : UIColor.ows_whiteColor);
+    return (Theme.isDarkThemeEnabled ? UIColor.blackColor : UIColor.ows_whiteColor);
 }
 
 + (UIColor *)navbarIconColor
@@ -93,7 +93,7 @@ NSString *const ThemeKeyThemeEnabled = @"ThemeKeyThemeEnabled";
 
 + (UIColor *)cellSelectedColor
 {
-    return (Theme.isDarkThemeEnabled ? UIColor.ows_whiteColor : UIColor.ows_blackColor);
+    return (Theme.isDarkThemeEnabled ? UIColor.whiteColor : UIColor.blackColor);
 }
 
 + (UIColor *)conversationButtonBackgroundColor
